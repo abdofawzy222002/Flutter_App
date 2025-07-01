@@ -22,8 +22,8 @@ class ProfilePostPage extends StatelessWidget {
           ElevatedButton(
             style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
             onPressed: () {
-              Navigator.pop(context); // يغلق الـ dialog
-              onConfirm(); // ينفذ عملية الحذف
+              Navigator.pop(context); 
+              onConfirm(); 
             },
             child: const Text("Delete"),
           ),
