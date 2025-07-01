@@ -16,7 +16,7 @@ class ProfilePostPage extends StatelessWidget {
         content: const Text("Are you sure you want to delete this post?"),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context), // يغلق الـ dialog
+            onPressed: () => Navigator.pop(context), 
             child: const Text("Cancel"),
           ),
           ElevatedButton(
